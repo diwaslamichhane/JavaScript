@@ -17,3 +17,11 @@ if(69){
 else{
     console.log("Since it is falsy, this will run!")
 }
+
+// Example of Falsy
+if(NaN){
+    console.log("Since it is truthy, this will print!");
+}
+else{
+    console.log("Since it is falsy, this will run!")
+}
