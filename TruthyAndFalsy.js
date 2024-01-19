@@ -25,3 +25,4 @@ if(NaN){
 else{
     console.log("Since it is falsy, this will run!")
 }
+
