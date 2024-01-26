@@ -6,21 +6,20 @@
 // Any kind of variable inside iife automatically becomes private variable.
 
 // syntax of iife 
-
 (function(){
 
 })
 ()
 
-// Example of iife 
 
+// Example of iife 
 var private = (function(){
     var privateValue = 10; // This becomes private variable
 })
 () //calling iife
 
-//How to access iife ?
 
+//How to access iife ?
 var private = (function(){
     var privateValue = 10; // This becomes private variable
     
